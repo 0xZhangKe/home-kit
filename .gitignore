@@ -1,6 +1,77 @@
-work/
+# Gradle / Kotlin generated files (keep gradle/wrapper/ and gradle.properties)
+.gradle/
+.kotlin/
+build/
+out/
+local.properties
+
+# Android / desktop / iOS distribution artifacts
+*.apk
+*.aab
+*.apks
+*.ipa
+*.dmg
+*.msi
+*.deb
+*.AppImage
+
+# Xcode generated files (keep project.pbxproj and shared schemes)
+DerivedData/
+*.xcarchive/
+*.dSYM/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# IDE local configuration
+.idea/
+.fleet/
+*.iml
+*.ipr
+*.iws
+.vscode/*.local.json
+
+# Account sessions, environment variables, and signing credentials
 .local/
+.hialife/
+/session.json
+/session.lock
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+keystore.properties
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Local protocol research / ARTEMIS output
+/work/
+/traces/
+
+# Python caches and virtual environments
 __pycache__/
-*.pyc
-HIAILife.apk
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS metadata, logs, and editor temporary files
 .DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*.swo
+*~
